@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Multi step form</title>
+  </head>
+  <body>
+    <form method="post" class="multi-form" data-multi-step>
+      <div class="form-group">
+        <h1>Registration Form</h1>
+        <div class="form-list active" data-step>
+          <label for="username"> Username:</label>
+          <input type="text" name="username" id="username" required />
+          <label for="firstname"> First Name:</label>
+          <input type="text" name="firstname" id="firstname" required />
+          <label for="lastname"> Last Name:</label>
+          <input type="text" name="lastname" id="lastname" required />
+          <div class="button-list0">
+            <button type="button" data-next>Next</button>
+          </div>
+        </div>
+        <div class="form-list" data-step>
+          <label for="email"> Email:</label>
+          <input type="email" name="email" id="email" required />
+          <label for="age"> Age:</label>
+          <input type="number" name="age" id="age" required />
+          <label for="zipcode"> Zip Code:</label>
+          <input type="number" name="zipcode" id="zipcode" />
+          <div class="button-list">
+            <button type="button" data-previous>Previous</button>
+            <button type="button" data-next>Next</button>
+          </div>
+        </div>
+        <div class="form-list" data-step>
+          <label for="password"> Password:</label>
+          <input type="password" name="password" id="password" required />
+          <label for="password"> Confirm Password:</label>
+          <input type="password" name="cpassword" id="cpassword" required />
+          <label for="security"> Recovery Code:</label>
+          <input type="password" name="security" id="security" />
+          <div class="button-list">
+            <button type="button" data-previous>Previous</button>
+            <button type="submit">Register</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <script src="form.js"></script>
+  </body>
+</html>
