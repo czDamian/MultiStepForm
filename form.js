@@ -33,3 +33,8 @@ function showCurrentStep() {
         step.classList.toggle("active", index === currentStep);
     });
 }
+
+function handleSubmit (e) {
+  e.preventDefault();
+  alert('Successfully registered')
+}
