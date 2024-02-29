@@ -7,6 +7,6 @@ Credits to the developer - [Damian](https://wa.me/2348060864466) for this beauti
 
 ## Feedback
 Send your feedback and complaints to the developer
-# [Twitter](https://x.com/buzordamian)
-# [Telegram](https://t.me/buzorDamian)
-# [WhatsApp](https://wa.me/2348060864466)
+> [Twitter](https://x.com/buzordamian)
+> [Telegram](https://t.me/buzorDamian)
+> [WhatsApp](https://wa.me/2348060864466)
